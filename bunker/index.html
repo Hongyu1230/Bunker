@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bunker</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="dist/bundle.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <div class="gameContainer" id="mainbox">
+      <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+      <div ID="target" class="target"></div>
+	  <div class="playersection">
+		<div class="player1">player 1:</div>
+		<div id="player1score">0</div>
+	  </div>
+	  <div class="playersection">
+	      <div class="player2">player 2:</div>
+	      <div id="player2score">0</div>
+	  </div>
+	  <div class="gamerestart"><button id="gameover" disabled>restart game</button></div>
+    </div>
+  </body>
+</html>
